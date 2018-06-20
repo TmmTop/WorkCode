@@ -103,17 +103,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({21:[function(require,module,exports) {
+})({37:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -239,10 +234,6 @@ exports.default = {
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _vm._m(0),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
       _c("h3", [
         _vm._v(
           "parcel-vue是全新的组件化构建开发模板，追求最零化的配置，支持vux/iview等组件框架，提供秒级开发与部署（已升级parcel至1.9.0版本!）"
@@ -359,22 +350,12 @@ exports.default = {
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(0)
     ],
     1
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h2", [
-      _vm._v("\n    前言：伴随着webpack越发复杂臃肿，前端"),
-      _c("b", [_vm._v("零配置")]),
-      _vm._v("的需求越来越高，parcel为前端构建带来了革命性的变化\n  ")
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -480,7 +461,7 @@ render._withStripped = true
       
       }
     })();
-},{"_css_loader":9,"vue-hot-reload-api":10,"vue":3}],19:[function(require,module,exports) {
+},{"_css_loader":33,"vue-hot-reload-api":41,"vue":10}],20:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -509,7 +490,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49751' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53407' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -650,5 +631,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[19,21], null)
+},{}]},{},[20,37], null)
 //# sourceMappingURL=/Index.36319029.map

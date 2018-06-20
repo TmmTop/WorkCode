@@ -17,6 +17,7 @@ $ x-cli parcel-vue myproject
 
 > 开发调试
 ```bash
+$ npm install vue
 $ npm run dev
 ```
 

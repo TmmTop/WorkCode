@@ -3,11 +3,6 @@
     <Icon type="ios-bolt-outline" size="150"></Icon>
     <!-- <img src="../assets/logo.png"> -->
     <h1>Parcel-VUE</h1>
-  
-    <br/>
-    <h2>
-      前言：伴随着webpack越发复杂臃肿，前端<b>零配置</b>的需求越来越高，parcel为前端构建带来了革命性的变化
-    </h2>
     <br/>
     <h3>parcel-vue是全新的组件化构建开发模板，追求最零化的配置，支持vux/iview等组件框架，提供秒级开发与部署（已升级parcel至1.9.0版本!）</h3>
     <br/>
