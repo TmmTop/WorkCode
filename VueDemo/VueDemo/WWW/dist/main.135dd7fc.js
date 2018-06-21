@@ -7691,8 +7691,15 @@ exports.reload = tryWrap(function (id, options) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -7701,7 +7708,17 @@ Object.defineProperty(exports, "__esModule", {
 //
 
 exports.default = {
-  name: 'app'
+    name: 'app',
+    data: function data() {
+        return {
+            headH: '5rem'
+        };
+    },
+    mounted: function mounted() {},
+
+    methods: {
+        layout: function layout() {}
+    }
 };
         var $c057da = exports.default || module.exports;
       
@@ -7715,7 +7732,24 @@ exports.default = {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "app" } }, [_c("router-view")], 1)
+  return _c("div", { attrs: { id: "app" } }, [
+    _c(
+      "div",
+      {
+        staticClass: "head",
+        style: {
+          height: _vm.headH,
+          lineHeight: _vm.headH,
+          backgroundColor: "#2D2D30"
+        }
+      },
+      [_c("h1", [_vm._v("资源屋")])]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "content" }, [_c("router-view")], 1),
+    _vm._v(" "),
+    _c("div", { staticClass: "foot" })
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -49415,7 +49449,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53407' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50364' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

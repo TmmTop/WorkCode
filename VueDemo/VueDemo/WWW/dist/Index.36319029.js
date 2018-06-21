@@ -107,34 +107,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -198,19 +172,19 @@ Object.defineProperty(exports, "__esModule", {
 //
 
 exports.default = {
-  name: "index",
-  mounted: function mounted() {},
-  data: function data() {
-    return {
-      showTip: false
-    };
-  },
+    name: "index",
+    mounted: function mounted() {},
+    data: function data() {
+        return {
+            showTip: false
+        };
+    },
 
-  methods: {
-    showClick: function showClick() {
-      this.showTip = true;
+    methods: {
+        showClick: function showClick() {
+            this.showTip = true;
+        }
     }
-  }
 };
         var $319029 = exports.default || module.exports;
       
@@ -330,7 +304,7 @@ exports.default = {
                   [
                     _c("Icon", { attrs: { type: "play", size: "100" } }),
                     _vm._v(" "),
-                    _c("h2", [_vm._v("快速开始")]),
+                    _vm.showTip ? _c("h2", [_vm._v("快速开始")]) : _vm._e(),
                     _vm._v(" "),
                     _c("h3", [_vm._v("开始您的parcel-vue之旅")])
                   ],
@@ -342,100 +316,19 @@ exports.default = {
           )
         ],
         1
-      ),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _vm._m(0)
+      )
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", [
-      _c("li", [
-        _c(
-          "a",
-          { attrs: { href: "https://github.com/cheneyweb", target: "_blank" } },
-          [_vm._v("Thanks")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            attrs: {
-              href: "https://github.com/cheneyweb/parcel-vue",
-              target: "_blank"
-            }
-          },
-          [_vm._v("Github")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          {
-            attrs: {
-              href: "https://github.com/cheneyweb/parcel-vue",
-              target: "_blank"
-            }
-          },
-          [_vm._v("Support")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          { attrs: { href: "mailto:457299596@qq.com", target: "_blank" } },
-          [_vm._v("Email")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          { attrs: { href: "http://www.xserver.top", target: "_blank" } },
-          [_vm._v("Powered by XServer")]
-        )
-      ]),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("li", [
-        _c(
-          "a",
-          { attrs: { href: "https://github.com/cheneyweb", target: "_blank" } },
-          [_vm._v("Donate")]
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
           return {
             render: render,
             staticRenderFns: staticRenderFns,
             _compiled: true,
-            _scopeId: "data-v-319029",
+            _scopeId: null,
             functional: undefined
           };
         })());
@@ -490,7 +383,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53407' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50364' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
