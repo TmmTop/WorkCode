@@ -39,8 +39,4 @@
     <EmbeddedResource Include="host.json" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="WWW\" />
-  </ItemGroup>
-
 </Project>
