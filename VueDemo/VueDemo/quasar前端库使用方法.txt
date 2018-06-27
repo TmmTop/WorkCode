@@ -1,0 +1,43 @@
+quasar框架入门
+npm install -g vue-cli
+npm install -g quasar-cli
+quasar init <文件夹名称>
+# 运行开发服务器(使用默认主题)
+$ quasar dev
+
+# 运行开发服务器(使用特定主题)
+$ quasar dev -t mat
+$ quasar dev -t ios
+
+# 运行在特定端口
+$ quasar dev -p 9090
+
+# PWA模式
+$ quasar dev -m pwa
+
+# 手机App
+$ quasar dev -m cordova -T [android|ios] -t [mat|ios]
+
+# Electron应用
+$ quasar dev -m electron
+# 使用iOS主题...
+$ quasar dev -m electron -t ios
+
+
+# 构建生产版本
+$ quasar build
+
+# 构建生产版本(使用特定主题)
+$ quasar build -t mat
+$ quasar build -t ios
+
+# PWA
+$ quasar build -m pwa
+
+# 手机App
+$ quasar build -m cordova -T [android|ios] -t [mat|ios]
+
+# Electron应用
+$ quasar build -m electron
+# 使用iOS主题...
+$ quasar build -m electron -t ios

@@ -39,4 +39,8 @@
     <EmbeddedResource Include="host.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="www\static\css\" />
+  </ItemGroup>
+
 </Project>
