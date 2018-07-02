@@ -2,13 +2,14 @@
   "name": "www",
   "version": "1.0.0",
   "description": "前端框架",
-  "productName": "Qui",
+  "productName": "资源屋",
   "cordovaId": "org.cordova.quasar.app",
   "author": "猪猪魅无影 <490912587@qq.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "app": "quasar dev -t ios"
   },
   "dependencies": {},
   "devDependencies": {

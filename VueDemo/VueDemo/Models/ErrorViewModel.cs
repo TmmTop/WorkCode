@@ -1,11 +1,11 @@
 using System;
+using System.Data.SqlClient;
 
 namespace VueDemo.Models
 {
     public class ErrorViewModel
     {
         public string RequestId { get; set; }
-
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }

@@ -15,9 +15,13 @@
 
   <ItemGroup>
     <Compile Remove="Views\web\**" />
+    <Compile Remove="www\static\**" />
     <Content Remove="Views\web\**" />
+    <Content Remove="www\static\**" />
     <EmbeddedResource Remove="Views\web\**" />
+    <EmbeddedResource Remove="www\static\**" />
     <None Remove="Views\web\**" />
+    <None Remove="www\static\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,10 +41,6 @@
 
   <ItemGroup>
     <EmbeddedResource Include="host.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="www\static\css\" />
   </ItemGroup>
 
 </Project>
